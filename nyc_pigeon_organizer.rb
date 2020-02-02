@@ -24,6 +24,7 @@ def nyc_pigeon_organizer(data)
       #pp color[0]
       if color[0].has_value?(bird[0])
         bird[:color] << color[0].to_s
+      end
     }
   }
   pp pigeons
