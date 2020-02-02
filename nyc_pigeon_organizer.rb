@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
   pigeons.each { |bird|
     #bird[0] == name
     data[:color].each { |color|
-      pp color
+      pp color[0]
     }
   }
   pigeons 
