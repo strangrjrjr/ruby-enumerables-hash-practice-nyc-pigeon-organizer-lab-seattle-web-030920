@@ -18,6 +18,6 @@ def nyc_pigeon_organizer(data)
     end
       }
     }
-  puts pigeons[0]
+  pp pigeons[0]
   pigeons 
 end
