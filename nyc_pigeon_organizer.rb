@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
     }
   pp pigeons
   pigeons.each { |bird|
-    pp bird
+    pp bird[0]
   }
   pigeons 
 end
