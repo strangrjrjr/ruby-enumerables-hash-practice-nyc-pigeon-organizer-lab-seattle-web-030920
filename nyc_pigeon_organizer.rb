@@ -12,7 +12,9 @@ def nyc_pigeon_organizer(data)
           :gender => m_or_f.to_s,
           :lives => ""
         }
+        name += 1
       end
+      index += 1
     end
       }
     }
