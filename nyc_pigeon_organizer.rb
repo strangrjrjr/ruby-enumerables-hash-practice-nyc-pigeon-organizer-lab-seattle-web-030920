@@ -18,12 +18,14 @@ def nyc_pigeon_organizer(data)
     end
       }
     }
- # pp pigeons
   pigeons.each { |bird|
     #bird[0] == name
     data[:color].each { |color|
-      pp color[0]
+      #pp color[0]
+      if color[0].has_value?(bird[0])
+        bird[:color] << color[0].to_s
     }
   }
+  pp pigeons
   pigeons 
 end
