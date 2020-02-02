@@ -18,18 +18,6 @@ def nyc_pigeon_organizer(data)
     end
       }
     }
-    data[:color]. each { |color|
-      index = 1
-      name = 0
-      while index < color.length
-        while name < color[index].length
-          pigeons[name][:color] << color[index - 1].to_s
-          name += 1
-        end
-        index += 1
-      end
-        
-    }
   pp pigeons
   pigeons 
 end
