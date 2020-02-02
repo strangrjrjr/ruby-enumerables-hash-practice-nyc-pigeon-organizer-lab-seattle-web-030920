@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
     end
       }
     }
-  names = pigeons.key
+  names = pigeons.keys
   data[:color].each { |color_hash|
     
   }
