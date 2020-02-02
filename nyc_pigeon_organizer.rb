@@ -21,6 +21,6 @@ def nyc_pigeon_organizer(data)
   data[:color].each { |color_hash|
     
   }
-  pp pigeons
+  
   pigeons 
 end
