@@ -20,10 +20,10 @@ def nyc_pigeon_organizer(data)
     }
   pigeons.each { |bird|
     #bird[0] == name
-    puts bird[0]
+    puts pigeons[0]
     data[:color].each { |color|
-      puts color[0].to_s
-      puts color[1].has_value?(bird[0])
+      #puts color[0].to_s
+      #puts color[1].has_value?(bird[0])
       if color[1].has_value?(bird[0])
         pp color[0].to_s
         bird[:color] << color[0].to_s
