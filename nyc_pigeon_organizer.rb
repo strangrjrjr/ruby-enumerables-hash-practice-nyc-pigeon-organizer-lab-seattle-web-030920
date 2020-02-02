@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     gender.each { |m_or_f|
     puts "M_OR_F"
     pp m_or_f
-    pigeons[bird] = {
+    pigeons[gender[index][name]] = {
       :color => [],
       :gender => m_or_f.to_s,
       :lives => ""
