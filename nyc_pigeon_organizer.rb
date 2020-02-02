@@ -21,8 +21,10 @@ def nyc_pigeon_organizer(data)
   names = pigeons.keys
   pp names
   data[:color].each { |color|
-    pp color[1]
-    if color[1].has
+    count = 0
+    while count < names.length
+      pp color[1]
+      if color[1].include?
   }
   pp pigeons
   pigeons 
