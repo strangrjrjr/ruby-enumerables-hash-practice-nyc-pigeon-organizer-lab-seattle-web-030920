@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       while name < gender[index].length
         pigeons[gender[index][name]] = {
           :color => [],
-          :gender => m_or_f.to_s,
+          :gender => gender[index].to_s,
           :lives => ""
         }
         name += 1
