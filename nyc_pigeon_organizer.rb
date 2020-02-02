@@ -24,8 +24,9 @@ def nyc_pigeon_organizer(data)
     count = 0
     while count < names.length
       pp color[1]
+      pp color[0].to_s
       if color[1].include?(names[count])
-        pigeons[names[count]][:color] << color[0]
+        pigeons[names[count]][:color] << color[0].to_s
       end
       count += 1
     end
