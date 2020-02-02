@@ -18,6 +18,9 @@ def nyc_pigeon_organizer(data)
     end
       }
     }
+  data[:color].each { |color|
+    pp color
+  }
   pp pigeons
   pigeons 
 end
