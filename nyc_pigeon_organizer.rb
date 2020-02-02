@@ -22,6 +22,7 @@ def nyc_pigeon_organizer(data)
   pp names
   data[:color].each { |color|
     pp color[1]
+    if color[1].has
   }
   pp pigeons
   pigeons 
